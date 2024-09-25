@@ -1,6 +1,6 @@
 {
-    "author": "Paymenter",
-    "description": "Default theme for Paymenter",
+    "author": "Zink",
+    "description": "Zink",
     "settings": [
         {
             "type": "checkbox",
@@ -16,31 +16,31 @@
                     "type": "color",
                     "label": "Primary 50",
                     "name": "primary-50",
-                    "default": "#EDF0FF"
+                    "default": "#E3F2FD"
                 },
                 {
                     "type": "color",
                     "label": "Primary 100",
                     "name": "primary-100",
-                    "default": "#C6DBFF"
+                    "default": "#90CAF9"
                 },
                 {
                     "type": "color",
                     "label": "Primary 200",
                     "name": "primary-200",
-                    "default": "#9BBEFB"
+                    "default": "#64B5F6"
                 },
                 {
                     "type": "color",
                     "label": "Primary 300",
                     "name": "primary-300",
-                    "default": "#799CD8"
+                    "default": "#42A5F5"
                 },
                 {
                     "type": "color",
                     "label": "Primary 400",
                     "name": "primary-400",
-                    "default": "#5270FD"
+                    "default": "#2196F3"
                 }
             ]
         },
@@ -52,61 +52,61 @@
                     "type": "color",
                     "label": "Secondary 50",
                     "name": "secondary-50",
-                    "default": "#FFFFFF"
+                    "default": "#FFF8E1"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 100",
                     "name": "secondary-100",
-                    "default": "#FAFCFF"
+                    "default": "#FFECB3"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 200",
                     "name": "secondary-200",
-                    "default": "#EBEEF3"
+                    "default": "#FFE082"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 300",
                     "name": "secondary-300",
-                    "default": "#BBBFD2"
+                    "default": "#FFD54F"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 400",
                     "name": "secondary-400",
-                    "default": "#808498"
+                    "default": "#FFCA28"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 500",
                     "name": "secondary-500",
-                    "default": "#606372"
+                    "default": "#FFC107"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 600",
                     "name": "secondary-600",
-                    "default": "#4D4F60"
+                    "default": "#FFB300"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 700",
                     "name": "secondary-700",
-                    "default": "#353741"
+                    "default": "#FFA000"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 800",
                     "name": "secondary-800",
-                    "default": "#1C1C20"
+                    "default": "#FF8F00"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 900",
                     "name": "secondary-900",
-                    "default": "#000000"
+                    "default": "#FF6F00"
                 }
             ]
         },
@@ -118,61 +118,61 @@
                     "type": "color",
                     "label": "Secondary 50",
                     "name": "secondary-50-dark",
-                    "default": "#1E202D"
+                    "default": "#1E1E1E"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 100",
                     "name": "secondary-100-dark",
-                    "default": "#313441"
+                    "default": "#333333"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 200",
                     "name": "secondary-200-dark",
-                    "default": "#404351"
+                    "default": "#4A4A4A"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 300",
                     "name": "secondary-300-dark",
-                    "default": "#4F525E"
+                    "default": "#616161"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 400",
                     "name": "secondary-400-dark",
-                    "default": "#656874"
+                    "default": "#757575"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 500",
                     "name": "secondary-500-dark",
-                    "default": "#7D8091"
+                    "default": "#9E9E9E"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 600",
                     "name": "secondary-600-dark",
-                    "default": "#AEB2C2"
+                    "default": "#BDBDBD"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 700",
                     "name": "secondary-700-dark",
-                    "default": "#CACBD2"
+                    "default": "#E0E0E0"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 800",
                     "name": "secondary-800-dark",
-                    "default": "#F1F1F1"
+                    "default": "#EEEEEE"
                 },
                 {
                     "type": "color",
                     "label": "Secondary 900",
                     "name": "secondary-900-dark",
-                    "default": "#ffffff"
+                    "default": "#FFFFFF"
                 }
             ]   
         }
