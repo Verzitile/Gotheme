@@ -4,19 +4,19 @@
 
 @layer components {
     .form-label {
-        @apply absolute left-[9px] top-px text-sm text-gray-500 transition-all duration-300 px-1 transform -translate-y-1/2 pointer-events-none peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-base group-focus-within:!top-px group-focus-within:!text-sm group-focus-within:!text-logo rounded-md dark:text-darkmodetext dark:bg-darkmode bg-white;
+        @apply absolute left-[9px] top-px text-sm text-gray-500 transition-all duration-300 ease-out px-1 transform -translate-y-1/2 pointer-events-none peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 group-focus-within:!top-px group-focus-within:!text-sm group-focus-within:!text-logo rounded-md dark:text-darkmodetext dark:bg-darkmode bg-white;
     }
 
     .form-input {
-        @apply w-full px-3 py-3 rounded-md shadow-sm outline-none focus:ring-1 focus:ring-primary-400 border-0 dark:text-darkmodetext dark:bg-darkmode transition-all ease-in-out;
+        @apply w-full px-4 py-3 rounded-lg shadow-md border border-gray-300 outline-none focus:ring-2 focus:ring-primary-400 focus:border-primary-400 dark:text-darkmodetext dark:bg-darkmode transition-all duration-300 ease-in-out;
     }
 
     .form-input.is-invalid {
-        @apply border-red-500;
+        @apply border-red-500 focus:ring-red-500;
     }
 
     .form-submit {
-        @apply px-4 py-2 font-bold text-white rounded-md bg-logo hover:bg-blue-700;
+        @apply px-4 py-3 font-semibold text-white rounded-lg bg-logo hover:bg-blue-700 transition-colors duration-300 ease-in-out shadow-md focus:ring-2 focus:ring-blue-500 focus:outline-none;
     }
 
     .prose {
@@ -28,47 +28,47 @@
     }
 
     .button {
-        @apply inline-block py-2 px-4 rounded-md text-center font-sans font-medium duration-300;
+        @apply inline-block py-2.5 px-5 rounded-lg text-center font-sans font-medium transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-darkmode;
     }
 
     .button-primary {
-        @apply bg-primary-400 text-primary-50 hover:bg-primary-300 hover:text-white focus:bg-primary-300 focus:text-white focus:ring-2 ring-primary-300 ring-offset-2 ring-offset-secondary-50 dark:ring-offset-secondary-100;
+        @apply bg-primary-400 text-primary-50 hover:bg-primary-300 hover:text-white focus:bg-primary-300 focus:text-white focus:ring-2 ring-primary-400 ring-offset-2 ring-offset-gray-50 dark:ring-offset-secondary-100;
     }
 
     .button-secondary {
-        @apply bg-secondary-200 text-secondary-800 hover:bg-secondary-300 hover:text-secondary-900 focus:bg-secondary-300 focus:text-secondary-900 focus:ring-2 ring-secondary-300 ring-offset-2 ring-offset-secondary-50 dark:ring-offset-secondary-100;
+        @apply bg-secondary-200 text-secondary-800 hover:bg-secondary-300 hover:text-secondary-900 focus:bg-secondary-300 focus:text-secondary-900 focus:ring-2 ring-secondary-300 ring-offset-2 ring-offset-gray-50 dark:ring-offset-secondary-100;
     }
 
     .button-danger {
-        @apply bg-danger-400 text-danger-50 hover:bg-danger-300 hover:text-white focus:bg-danger-300 focus:text-white focus:ring-2 ring-danger-300 ring-offset-2 ring-offset-secondary-50 dark:ring-offset-secondary-100;
+        @apply bg-danger-400 text-danger-50 hover:bg-danger-300 hover:text-white focus:bg-danger-300 focus:text-white focus:ring-2 ring-danger-400 ring-offset-2 ring-offset-gray-50 dark:ring-offset-secondary-100;
     }
 
     .button-success {
-        @apply bg-success-400 text-success-50 hover:bg-success-300 hover:text-white focus:bg-success-300 focus:text-white focus:ring-2 ring-success-300 ring-offset-2 ring-offset-secondary-50 dark:ring-offset-secondary-100;
+        @apply bg-success-400 text-success-50 hover:bg-success-300 hover:text-white focus:bg-success-300 focus:text-white focus:ring-2 ring-success-400 ring-offset-2 ring-offset-gray-50 dark:ring-offset-secondary-100;
     }
 
     .button-primary-outline {
-        @apply text-primary-400 hover:bg-primary-400 hover:text-white focus:bg-primary-400 focus:text-white focus:ring-2 ring-primary-400 ring-offset-2 ring-offset-secondary-50 dark:ring-offset-secondary-100;
+        @apply text-primary-400 hover:bg-primary-400 hover:text-white focus:bg-primary-400 focus:text-white focus:ring-2 ring-primary-400 ring-offset-2 ring-offset-gray-50 dark:ring-offset-secondary-100;
     }
 
     .button-secondary-outline {
-        @apply text-secondary-800 hover:bg-secondary-200 hover:text-secondary-900 focus:bg-secondary-200 focus:text-secondary-900 focus:ring-2 ring-secondary-200 ring-offset-2 ring-offset-secondary-50 dark:ring-offset-secondary-100;
+        @apply text-secondary-800 hover:bg-secondary-200 hover:text-secondary-900 focus:bg-secondary-200 focus:text-secondary-900 focus:ring-2 ring-secondary-200 ring-offset-2 ring-offset-gray-50 dark:ring-offset-secondary-100;
     }
 
     .button-danger-outline {
-        @apply text-danger-400 hover:bg-danger-400 hover:text-white focus:bg-danger-400 focus:text-white focus:ring-2 ring-danger-400 ring-offset-2 ring-offset-secondary-50 dark:ring-offset-secondary-100;
+        @apply text-danger-400 hover:bg-danger-400 hover:text-white focus:bg-danger-400 focus:text-white focus:ring-2 ring-danger-400 ring-offset-2 ring-offset-gray-50 dark:ring-offset-secondary-100;
     }
 
     .button-success-outline {
-        @apply text-success-400 hover:bg-success-400 hover:text-white focus:bg-success-400 focus:text-white focus:ring-2 ring-success-400 ring-offset-2 ring-offset-secondary-50 dark:ring-offset-secondary-100;
+        @apply text-success-400 hover:bg-success-400 hover:text-white focus:bg-success-400 focus:text-white focus:ring-2 ring-success-400 ring-offset-2 ring-offset-gray-50 dark:ring-offset-secondary-100;
     }
 
     .content {
-        @apply container mx-auto items-center px-4 mt-8;
+        @apply container mx-auto items-center px-4 mt-10 space-y-4;
     }
 
     .content-box {
-        @apply bg-secondary-50 dark:bg-secondary-100 px-6 py-5 rounded-2xl border-2 dark:border-secondary-100 border-secondary-200 duration-300;
+        @apply bg-secondary-50 dark:bg-secondary-100 px-8 py-6 rounded-2xl border-2 dark:border-secondary-100 border-secondary-200 duration-300 shadow-md;
     }
 }
 
@@ -86,25 +86,23 @@
     --success-400: #4eb165;
 }
 
-
 * {
     scrollbar-width: thin;
     scrollbar-color: var(--primary-400) var(--secondary-50);
 }
 
 *::-webkit-scrollbar {
-    width: 15px;
-    box-shadow: 0 0 0 1px var(--secondary-50);
-    border-radius: 10px;
+    width: 10px;
+    border-radius: 8px;
 }
 
 *::-webkit-scrollbar-track {
     background: var(--secondary-50);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 *::-webkit-scrollbar-thumb {
     background-color: var(--primary-400);
-    border-radius: 20px;
+    border-radius: 8px;
     border: 3px solid var(--secondary-50);
 }
